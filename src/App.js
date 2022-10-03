@@ -1,17 +1,10 @@
 import './App.css';
-import HookUseCallBack from './hooks/HookUseCallBack';
-import HookUseReducer from './hooks/HookUseReducer';
-import { HookUseRef } from './hooks/HookUseRef';
-
+import Parent from './hooks/context/Parent'
 
 function App() {
   return (
     <div className="App">
-      <HookUseReducer/>
-      <hr></hr>
-      <HookUseCallBack />
-      <hr></hr>
-      <HookUseRef />
+      <Parent />
     </div>
   );
 }
