@@ -1,10 +1,21 @@
+
+## Self Development Dates 
+
+September
+9/30 - Brush up on Context API
+
+October
+10/7 - Styling Components
+10/14 - Writing Custom Hooks
+10/21 - High Order Components
+10/28 - Redux
+
+All components will be loaded in `src/styledComponents/index.js` file and index.js file will be loaded into App.js file.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
-
-In the project directory, you can run:
 
 ### `npm start`
 

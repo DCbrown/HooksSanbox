@@ -2,7 +2,6 @@ import './App.css';
 import Parent from './hooks/context/Parent'
 import StyleComponent from './styledComponents/index.js';
 import { ThemeProvider } from 'styled-components';
-import AppUseAxiosClient from './hooks/api/useAxiosClient';
 
 
 const theme = {
@@ -15,9 +14,9 @@ const theme = {
 function App() {
   return (
     <ThemeProvider theme = {theme}>
-    <div>
-      <StyleComponent />
-      <AppUseAxiosClient />
+    <StyleComponent />
+    <div style={{marginLeft: 250}}>
+     
     </div>
     </ThemeProvider>
   );
